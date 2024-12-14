@@ -1,0 +1,23 @@
+name: FirstJoinPlus
+main: com.chaseoes.firstjoinplus.FirstJoinPlus
+version: 2.4.1
+description: FirstJoinPlus by chaseoes.
+author: chaseoes
+dev-url: http://dev.bukkit.org/server-mods/firstjoinplus/
+website: http://dev.bukkit.org/server-mods/firstjoinplus/
+softdepend: [GeoIPTools]
+commands:
+  firstjoinplus:
+    description: FirstJoinPlus command(s).
+    aliases: fjp
+    usage: /firstjoinplus [reload|setspawn|debug]
+  kickme:
+    description: Troll command. Whomever uses this will get kicked.
+    usage: /kickme
+permissions:
+  firstjoinplus.reload:
+    description: Permission to use the /firstjoinplus reload command.
+  firstjoinplus.setspawn:
+    description: Permission to use the /firstjoinplus setspawn command.
+  firstjoinplus.debug:
+    description: Permission to use the /firstjoinplus debug command.
